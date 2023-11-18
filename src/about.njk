@@ -1,0 +1,27 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}About{% endblock %}
+
+{% block page_description %}A bio of the band and a list of member bios{% endblock %}
+
+{% block content %}
+<article class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <img src="img/queen-group.png" class="img-fluid">
+    </div>
+    <div class="col-sm-7">this is going to be band bio</div>
+  </div>
+  <div class="row">
+    {% for member in queen.members %}
+    <div class="col-md">
+      <img src="img/members/{{ member.imagebw }}" class="img-fluid">
+      <a href="members/{{ member.slug }}.html" target="_">{{ member.name }}</a>
+    </div>
+    {% endfor %}
+    <p> bruh <p>
+</div>
+
+</article>
+
+{% endblock %}

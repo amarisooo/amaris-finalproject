@@ -1,0 +1,32 @@
+{% extends '_templates/base.njk' %}
+
+
+{% block page_title %} Home{% endblock %}
+
+{% block content %}
+{% include "_includes/jumbotron.njk" %}
+<article class="container">
+  <h2>Discography</h2>
+  <div class="row">
+    <div class="col-sm">
+      <button class="btn btn-default">
+        <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_Queen.png"></a>
+      </button>
+    </div>
+    <div class="col-sm">
+      <button class="btn btn-default">
+        <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_A_Night_At_The_Opera.png"> </a>
+      </button>
+    </div>
+    <div class="col-sm">
+      <button class="btn btn-default">
+        <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_Sheer_Heart_Attack.png"></a>
+      </button>
+    </div>
+    <a href="{{ relative_path }}tour.html">
+      <h2>Tour</h2>
+    </a>
+  </div>
+
+</article>
+{% endblock %}

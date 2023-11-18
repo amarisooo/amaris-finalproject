@@ -1,0 +1,21 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Music{% endblock %}
+
+{% block page_description %}A page that shows Queen's discography{% endblock %}
+
+{% block content %}
+<article class="container">
+  <div class="row">
+    {%for album in queen.discography%}
+      <div class="col-md-4">
+        <img src="img/discs/{{ album.image }}" class="img-fluid">
+      </div>
+    {% endfor %}
+  </div>
+
+</article>
+
+
+{% endblock %}
+
