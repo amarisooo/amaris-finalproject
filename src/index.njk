@@ -14,12 +14,16 @@
   </div>
   <div class="row">
     {% for member in queen.members %}
-    <div class="col-md">
-      <img src="img/members/{{ member.imagebw }}" class="img-fluid">
-      <a href="members/{{ member.slug }}.html" target="_self">{{ member.name }}</a>
+    <div class="members col-md">
+      <a href="members/{{ member.slug }}.html" target="_self" class="img-overlay"><img src="img/members/{{ member.imagebw }}" class="img-fluid">
+      <div class="overlay">
+        <div class="text">
+          {{ member.name }}
+        </div>
+      </div>
+      </a>
     </div>
     {% endfor %}
-    <p> bruh <p>
 </div>
   <h2>Discography</h2>
   <div class="row">

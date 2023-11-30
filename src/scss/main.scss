@@ -31,6 +31,7 @@ h3 {
 
 h2{
   text-align: center;
+  padding-top: 40px;
 }
 
 .col-md-4{
@@ -47,17 +48,57 @@ h2{
   text-align: center;
 }
 
-.jumbo-header{
-  width: 400px;
-}
-
 .main-band.img-fluid{
   padding-bottom: 20px;
+}
 
+.jumbo.img-fluid{
+  height: 550px;
+}
+
+.members.col-md{
+  position: relative;
+  width: 50%;
+}
+
+.img-overlay{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.members.col-md:hover .overlay{
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
 
+/* this is a work in progress and may not even work later :/ */
 /* .image-overlay{
   position: absolute;
 
