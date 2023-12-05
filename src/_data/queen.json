@@ -49,77 +49,92 @@
     {
       "title": "Queen",
       "year": 1973,
-      "image": "Queen_Queen.png"
+      "image": "Queen_Queen.png",
+      "url": "https://open.spotify.com/album/5SSpz2RyyEhLt5FDymT4Ph?si=6gMVfloIRSWKZwNHyWAAPg"
     },
     {
       "title": "Queen II",
       "year": 1974,
-      "image": "Queen_Queen_II.jpg"
+      "image": "Queen_Queen_II.jpg",
+      "url": "https://open.spotify.com/album/6Cg1pPfnfFXlR1qH2H6NDL?si=qERFVTpOTRSoy2siCmLpTA"
     },
     {
       "title": "Sheer Heart Attack",
       "year": 1974,
-      "image": "Queen_Sheer_Heart_Attack.png"
+      "image": "Queen_Sheer_Heart_Attack.png",
+      "url": "https://open.spotify.com/album/5CooX2xg5YibepSfjbRFNT?si=SM9iA6J2RCa_mYuvAc6-Rw"
     },
     {
       "title": "A Night at the Opera",
       "year": 1975,
-      "image": "Queen_A_Night_At_The_Opera.png"
+      "image": "Queen_A_Night_At_The_Opera.png",
+      "url": "https://open.spotify.com/album/7HVoV2lgVsmuiHsjbbUJB4?si=72EcOEN1TByUeqk_uG2J7g"
     },
     {
       "title": "A Day at the Races",
       "year": 1976,
-      "image": "Queen_A_Day_at_the_Races.jpg"
+      "image": "Queen_A_Day_at_the_Races.jpg",
+      "url": "https://open.spotify.com/album/4kmYoWtWvAIS43KwGuRb50?si=0aGcH-i0QkyMwildgURzLA"
     },
     {
       "title": "News of the World",
       "year": 1977,
-      "image": "Queen_News_Of_The_World.png"
+      "image": "Queen_News_Of_The_World.png",
+      "url": "https://open.spotify.com/album/4UyCb7lKdDqj4sSvAEh8w9?si=8wlLOI73TD6HpcMmdn4pCQ"
     },
     {
       "title": "Jazz",
       "year": 1978,
-      "image": "Queen_Jazz.png"
+      "image": "Queen_Jazz.png",
+      "url": "https://open.spotify.com/album/4mbkkOGZS6inHP2di2jaqS?si=zQUXx0HMRFKjQVr3GBfoAQ"
     },
     {
       "title": "The Game",
       "year": 1980,
-      "image": "Queen_The_Game.png"
+      "image": "Queen_The_Game.png",
+      "url": "https://open.spotify.com/album/0JY06ZYYyah5h3IUNtj32d?si=w2ASrOuoTK-n3kQuLt3CbA"
     },
     {
       "title": "Flash Gordon (Original Soundtrack)",
       "year": 1980,
-      "image": "Queen_Flash_Gordon.png"
+      "image": "Queen_Flash_Gordon.png",
+      "url": "https://open.spotify.com/album/0pZMBVdw7rLCklrrcxIbOy?si=8z-_5t8ESqaUna9OSylvmg"
     },
     {
       "title": "Hot Space",
       "year": 1982,
-      "image": "Queen_Hot_Space.png"
+      "image": "Queen_Hot_Space.png",
+      "url": "https://open.spotify.com/album/4IdoZg7qwE1VAfeqrBRuhC?si=hduZbnKHTy6bzxrSzM1--Q"
     },
     {
       "title": "The Works",
       "year": 1984,
-      "image": "Queen_The_Works.png"
+      "image": "Queen_The_Works.png",
+      "url": "https://open.spotify.com/album/2YcZlfU3fVThUasW4hHI24?si=70eSJsdURBKYJ1jTBSLWHQ"
     },
     {
       "title": "A Kind of Magic",
       "year": 1986,
-      "image": "Queen_A_Kind_Of_Magic.png"
+      "image": "Queen_A_Kind_Of_Magic.png",
+      "url": "https://open.spotify.com/album/19DjDiLPQM5kXc25vpuNn2?si=WOHdU6cESiK43DRzyCCoDQ"
     },
     {
       "title": "The Miracle",
       "year": 1989,
-      "image": "Queen_The_Miracle.png"
+      "image": "Queen_The_Miracle.png",
+      "url": "https://open.spotify.com/album/5IQU4NUxVKn0tdBpJjKCyd?si=inVUPVe-TESTUeNvFYNPKQ"
     },
     {
       "title": "Innuendo",
       "year": 1991,
-      "image": "Queen_Innuendo.png"
+      "image": "Queen_Innuendo.png",
+      "url": "https://open.spotify.com/album/3jYy7yGNCysTHE8MKrIF1k?si=LELTp2S4TIO81rSDaepvZA"
     },
     {
       "title": "Made in Heaven",
       "year": 1995,
-      "image": "Queen_Made_in_Heaven.jpg"
+      "image": "Queen_Made_in_Heaven.jpg",
+      "url": "https://open.spotify.com/album/2FkwqbLE84vjGOeTJMzRfF?si=lg7EQPJmQ_WQ6P2iVLViDA"
     }
   ],
   "billboard": [
@@ -127,136 +142,157 @@
       "Performer": "Queen",
       "Song": "Another One Bites The Dust",
       "Weeks on chart": 31,
-      "Top position": 1
+      "Top position": 1,
+      "title": "The Game"
     },
     {
       "Performer": "Queen",
       "Song": "Crazy Little Thing Called Love",
       "Weeks on chart": 22,
-      "Top position": 1
-    },
-    {
-      "Performer": "Queen",
-      "Song": "Bohemian Rhapsody",
-      "Weeks on chart": 44,
-      "Top position": 2
-    },
-    {
-      "Performer": "Queen",
-      "Song": "We Will Rock You/We Are The Champions",
-      "Weeks on chart": 41,
-      "Top position": 4
-    },
-    {
-      "Performer": "Queen",
-      "Song": "Body Language",
-      "Weeks on chart": 14,
-      "Top position": 11
-    },
-    {
-      "Performer": "Queen",
-      "Song": "Killer Queen",
-      "Weeks on chart": 19,
-      "Top position": 12
-    },
-    {
-      "Performer": "Queen",
-      "Song": "Somebody To Love",
-      "Weeks on chart": 15,
-      "Top position": 13
-    },
-    {
-      "Performer": "Queen",
-      "Song": "Radio Ga-ga",
-      "Weeks on chart": 13,
-      "Top position": 16
-    },
-    {
-      "Performer": "Queen",
-      "Song": "You're My Best Friend",
-      "Weeks on chart": 16,
-      "Top position": 16
-    },
-    {
-      "Performer": "Queen",
-      "Song": "Bicycle Race/Fat Bottomed Girls",
-      "Weeks on chart": 12,
-      "Top position": 24
-    },
-    {
-      "Performer": "Queen",
-      "Song": "A Kind Of Magic",
-      "Weeks on chart": 11,
-      "Top position": 42
-    },
-    {
-      "Performer": "Queen",
-      "Song": "Flash's Theme Aka Flash",
-      "Weeks on chart": 10,
-      "Top position": 42
+      "Top position": 1,
+      "title": "The Game"
     },
     {
       "Performer": "Queen",
       "Song": "Play The Game",
       "Weeks on chart": 9,
-      "Top position": 42
+      "Top position": 42,
+      "title": "The Game"
     },
     {
       "Performer": "Queen",
       "Song": "Need Your Loving Tonight",
       "Weeks on chart": 11,
-      "Top position": 44
+      "Top position": 44,
+      "title": "The Game"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "You're My Best Friend",
+      "Weeks on chart": 16,
+      "Top position": 16,
+      "title": "A Night at the Opera"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "Bohemian Rhapsody",
+      "Weeks on chart": 44,
+      "Top position": 2,
+      "title": "A Night at the Opera"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "We Will Rock You/We Are The Champions",
+      "Weeks on chart": 41,
+      "Top position": 4,
+      "title": "News of the World"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "Body Language",
+      "Weeks on chart": 14,
+      "Top position": 11,
+      "title": "Hot Space"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "Killer Queen",
+      "Weeks on chart": 19,
+      "Top position": 12,
+      "title": "Sheer Heart Attack"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "Somebody To Love",
+      "Weeks on chart": 15,
+      "Top position": 13,
+      "title": "A Day at the Races"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "Radio Ga-ga",
+      "Weeks on chart": 13,
+      "Top position": 16,
+      "title": "The Works"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "Bicycle Race/Fat Bottomed Girls",
+      "Weeks on chart": 12,
+      "Top position": 24,
+      "title": "Jazz"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "A Kind Of Magic",
+      "Weeks on chart": 11,
+      "Top position": 42,
+      "title": "A Kind of Magic"
+    },
+    {
+      "Performer": "Queen",
+      "Song": "Flash's Theme Aka Flash",
+      "Weeks on chart": 10,
+      "Top position": 42,
+      "title": "Flash Gordon (Original Soundtrack)"
     },
     {
       "Performer": "Queen",
       "Song": "I Want To Break Free",
       "Weeks on chart": 8,
-      "Top position": 45
+      "Top position": 45,
+      "title": "The Works"
     },
     {
       "Performer": "Queen",
       "Song": "Tie Your Mother Down",
       "Weeks on chart": 6,
-      "Top position": 49
+      "Top position": 49,
+      "title": "A Day at the Races"
     },
     {
       "Performer": "Queen",
       "Song": "I Want It All",
       "Weeks on chart": 10,
-      "Top position": 50
+      "Top position": 50,
+      "title": "The Miracle"
     },
     {
       "Performer": "Queen",
       "Song": "Calling All Girls",
       "Weeks on chart": 6,
-      "Top position": 60
+      "Top position": 60,
+      "title": "Hot Space"
     },
     {
       "Performer": "Queen",
       "Song": "One Vision",
       "Weeks on chart": 10,
-      "Top position": 61
+      "Top position": 61,
+      "title": "A Kind of Magic"
     },
     {
       "Performer": "Queen",
       "Song": "It's A Hard Life",
       "Weeks on chart": 4,
-      "Top position": 72
+      "Top position": 72,
+      "title": "The Works"
     },
     {
       "Performer": "Queen",
       "Song": "It's Late",
       "Weeks on chart": 5,
-      "Top position": 74
+      "Top position": 74,
+      "title": "News of the World"
     },
     {
       "Performer": "Queen",
       "Song": "Don't Stop Me Now",
       "Weeks on chart": 4,
-      "Top position": 86
+      "Top position": 86,
+      "title": "Jazz"
     }
   ],
-  "billboard-albums": [],
   "tour": [
     {
       "date": "5/27/2022",

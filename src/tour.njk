@@ -4,27 +4,27 @@
 {% block page_title %}Tour{% endblock %}
 
 {% block content %}
-{% include "_includes/jumbotron.njk" %}
+
 <!-- need to fix the width of the table -->
+<div id="jumbo" style="padding-bottom: 30px">
+  <div class="row">
+    <img class="img-fluid" src="img/queen-group-copy.png" >
+  </div>
+</div>
 <article class="container">
   <div class="row justify-content-md-center">
     <div class="col-md-8">
       <table class="table">
-        <thead class="thead">
+        <tbody>
           <tr>
-            <th scope="col">Date</th>
-            <th scope="col">City</th>
-            <th scope="col">Venue</th>
+            <th colspan="4"><h3>The Rhapsody Tour - Europe 2022</h3></th>
           </tr>
-        </thead>
-        {%for tours in queen.tour%}
-        <tbody >
+          {%for tours in queen.tour%}
           <tr>
-            <th scope="row">{{ tours.date}}</th>
-            <td>{{ tours.city }}</td>
-            <td>{{ tours.venue }}</td>
-        </tr>
-        </tbody> 
+            <td width="30%">{{ tours.date}}</td>
+            <td width="30%">{{ tours.city }}</td>
+            <td width="30%">{{ tours.venue }}</td>
+          </tr>
         {% endfor %}
       </table>
     </div>

@@ -1,23 +1,17 @@
 {% extends '_templates/base.njk' %}
 
-
 {% block page_title %} Home{% endblock %}
 
 {% block content %}
 {% include "_includes/jumbotron.njk" %}
 <article class="container">
-  <div class="row">
-    <div class="col-md-5">
-      <img src="img/queen-group.png" class="main-band img-fluid">
-    </div>
-    <div class="col-sm-7">this is going to be band bio</div>
-  </div>
-  <div class="row">
+    <div class="row">
+      <h2>The Band</h2>
     {% for member in queen.members %}
     <div class="members col-md">
       <a href="members/{{ member.slug }}.html" target="_self" class="img-overlay"><img src="img/members/{{ member.imagebw }}" class="img-fluid">
       <div class="overlay">
-        <div class="text">
+        <div class="overlay-text">
           {{ member.name }}
         </div>
       </div>
@@ -25,27 +19,55 @@
     </div>
     {% endfor %}
 </div>
-  <h2>Discography</h2>
+  <h2>Music</h2>
   <div class="row">
     <div class="col-sm">
       <button class="btn btn-default">
-        <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_Queen.png"></a>
+        <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_The_Game.png"></a>
       </button>
+    </div>
+    <div class="music-prev col-sm">
+      <h3>Top Tracks</h3>
+      <p>"Another One Bites The Dust"</p>
+      <p>"Crazy Little Thing Called Love"</p>
+      <p>"Play The Game"</p>
     </div>
     <div class="col-sm">
       <button class="btn btn-default">
         <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_A_Night_At_The_Opera.png"> </a>
       </button>
     </div>
-    <div class="col-sm">
-      <button class="btn btn-default">
-        <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_Sheer_Heart_Attack.png"></a>
-      </button>
+    <div class="music-prev col-sm">
+      <h3>Top Tracks</h3>
+      <p>"You're My Best Friend"</p>
+      <p>"Bohemian Rhapsody"</p>
     </div>
-    <a href="{{ relative_path }}tour.html">
+    <h2><a href="{{ relative_path }}tour.html">
     <!-- will use css to not make this look ugly and blue -->
-      <h2>Tour</h2>
-    </a>
+    Tour
+    </a></h2>
+    <div class="row justify-content-md-center">
+    <div class="col-md-8">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td width="30%">5/27/2022</td>
+            <td width="30%">Belfast, UK</td>
+            <td width="30%">SSE Arena</td>
+          </tr>
+          <tr>
+            <td width="30%">5/28/2022</td>
+            <td width="30%">Belfast, UK</td>
+            <td width="30%">SSE Arena</td>
+          </tr>
+          <tr>
+            <td width="30%">5/30/2022</td>
+            <td width="30%">Machester, UK</td>
+            <td width="30%">AO Arena Manchester</td>
+          </tr>
+      </table>
+    </div>
+  </div>
   </div>
 
 </article>

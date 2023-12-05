@@ -2,71 +2,33 @@
 
 {% block page_title %}Music{% endblock %}
 
+
 {% block page_description %}A page that shows Queen's discography{% endblock %}
 
 {% block content %}
 <article class="container">
-  <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="img/discs/Queen_A_Day_at_the_Races.jpg" class="img-fluid" alt="...">
-          </div>
-          <div class="col-md-6">
-            <p>adjaelcl;df</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="img/discs/Queen_Queen.png" class="img-fluid" alt="...">
-          </div>
-          <div class="col-md-6">
-            <p> each of these albums will have a link to the top song from this album and more info</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="img/discs/Queen_A_Night_At_The_Opera.png" class="img-fluid" alt="...">
-          </div>
-          <div class="col-md-6">
-            <p> dcadklfv;aejlaSd</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-    </div>
-    <div class="row">
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-  <div class="row">
     <!-- i'm going to add the overlay effect to the albums too, unless it's too much. i'll also be adding spotify links to each of these -->
-    {%for album in queen.discography%}
-      <div class="col-md-4">
-        <div class="image">
-          <img src="img/discs/{{ album.image }}" class="img-fluid album">
-          <div class="image-overlay">
-            <div class="image-info">{{ album.title }}
-            </div>
-            <p class="image-description">{{ album.year}}</p>
-          </div>
+    <div class="row">
+      <div class="text">
+        <h2 class="bios" style="text-align:left">Albums</h2>
+      </div>
+      {%for album in queen.discography%}
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="{{ album.url }}.html" class="img-overlay" target="_blank">
+            <img src="img/discs/{{ album.image }}" class="img-fluid album">
+              <div class="overlay">
+                <div class="overlay-text">{{ album.title }}
+                  <p>{{ album.year }}</p>
+                </div>
+              </div>
+          </a>
         </div>
       </div>
+ 
     {% endfor %}
-  </div>
+    
+    </div>
 </article>
 
 

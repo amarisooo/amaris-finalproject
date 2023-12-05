@@ -4,17 +4,22 @@
 
 {% block page_title %}{{ name }}{% endblock %}
 
-{% block page_description %}{{ name }} Member bios{% endblock %}
+{% block page_description %}{{ name }}Member bios{% endblock %}
+
+<!-- not sure why the logo image on nav is not showing up, but i'll fix it -->
 
 {% block content %}
   <article class="container">
     <div class="row">
       <div class="col-sm-4">
         <img class="img-fluid" src="/img/members/{{ image }}">
-        <p class="byline">Name will go here</p>  
       </div>
       <div class="col-sm-8">
-        <!-- will also fix the description -->
+        <div class="text">
+          <h2 class="bios" style="text-align: left">{{ name }}</h2>
+          <p><span class="bolded">Intruments:</span> {{ instruments }}<br>
+          <span class="bolded">Tenure:</span> {{ tenure }}</p>
+        </div>
         {{ description | safe }}
       </div>
     </div>
