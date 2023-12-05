@@ -1,375 +1,269 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>Queen |Music</title>
-    <meta name="description" content="A page that shows Queen's discography" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Signika+Negative&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="description" content="A page that shows Queen's discography">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Signika+Negative&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img class="nav-header" src="../img/queen-logo-white.png" />
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="nav-header" src="img/queen-logo-white.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="music.html">Music
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="music.html"
-              >Music
-            </a>
-            <a class="nav-link active" aria-current="page" href="tour.html"
-              >Tour
-            </a>
-          </ul>
-        </div>
+        <a class="nav-link active" aria-current="page" href="tour.html">Tour
+        </a>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+<article class="container">
+    <!-- i'm going to add the overlay effect to the albums too, unless it's too much. i'll also be adding spotify links to each of these -->
+    <div class="row">
+      <div class="text">
+        <h2 class="bios" style="text-align:left">Albums</h2>
       </div>
-    </nav>
-
-    <article class="container">
-      <!-- i'm going to add the overlay effect to the albums too, unless it's too much. i'll also be adding spotify links to each of these -->
-      <div class="row">
-        <div class="text">
-          <h2 class="bios" style="text-align: left">Albums</h2>
-        </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/5SSpz2RyyEhLt5FDymT4Ph?si=6gMVfloIRSWKZwNHyWAAPg.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img src="../img/discs/Queen_Queen.png" class="img-fluid album" />
+      
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/5SSpz2RyyEhLt5FDymT4Ph?si=6gMVfloIRSWKZwNHyWAAPg.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_Queen.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  Queen
+                <div class="overlay-text">Queen
                   <p>1973</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/6Cg1pPfnfFXlR1qH2H6NDL?si=qERFVTpOTRSoy2siCmLpTA.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_Queen_II.jpg"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/6Cg1pPfnfFXlR1qH2H6NDL?si=qERFVTpOTRSoy2siCmLpTA.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_Queen_II.jpg" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  Queen II
+                <div class="overlay-text">Queen II
                   <p>1974</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/5CooX2xg5YibepSfjbRFNT?si=SM9iA6J2RCa_mYuvAc6-Rw.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_Sheer_Heart_Attack.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/5CooX2xg5YibepSfjbRFNT?si=SM9iA6J2RCa_mYuvAc6-Rw.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_Sheer_Heart_Attack.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  Sheer Heart Attack
+                <div class="overlay-text">Sheer Heart Attack
                   <p>1974</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/7HVoV2lgVsmuiHsjbbUJB4?si=72EcOEN1TByUeqk_uG2J7g.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_A_Night_At_The_Opera.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/7HVoV2lgVsmuiHsjbbUJB4?si=72EcOEN1TByUeqk_uG2J7g.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_A_Night_At_The_Opera.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  A Night at the Opera
+                <div class="overlay-text">A Night at the Opera
                   <p>1975</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/4kmYoWtWvAIS43KwGuRb50?si=0aGcH-i0QkyMwildgURzLA.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_A_Day_at_the_Races.jpg"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/4kmYoWtWvAIS43KwGuRb50?si=0aGcH-i0QkyMwildgURzLA.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_A_Day_at_the_Races.jpg" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  A Day at the Races
+                <div class="overlay-text">A Day at the Races
                   <p>1976</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/4UyCb7lKdDqj4sSvAEh8w9?si=8wlLOI73TD6HpcMmdn4pCQ.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_News_Of_The_World.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/4UyCb7lKdDqj4sSvAEh8w9?si=8wlLOI73TD6HpcMmdn4pCQ.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_News_Of_The_World.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  News of the World
+                <div class="overlay-text">News of the World
                   <p>1977</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/4mbkkOGZS6inHP2di2jaqS?si=zQUXx0HMRFKjQVr3GBfoAQ.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img src="../img/discs/Queen_Jazz.png" class="img-fluid album" />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/4mbkkOGZS6inHP2di2jaqS?si=zQUXx0HMRFKjQVr3GBfoAQ.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_Jazz.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  Jazz
+                <div class="overlay-text">Jazz
                   <p>1978</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/0JY06ZYYyah5h3IUNtj32d?si=w2ASrOuoTK-n3kQuLt3CbA.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_The_Game.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/0JY06ZYYyah5h3IUNtj32d?si=w2ASrOuoTK-n3kQuLt3CbA.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_The_Game.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  The Game
+                <div class="overlay-text">The Game
                   <p>1980</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/0pZMBVdw7rLCklrrcxIbOy?si=8z-_5t8ESqaUna9OSylvmg.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_Flash_Gordon.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/0pZMBVdw7rLCklrrcxIbOy?si=8z-_5t8ESqaUna9OSylvmg.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_Flash_Gordon.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  Flash Gordon (Original Soundtrack)
+                <div class="overlay-text">Flash Gordon (Original Soundtrack)
                   <p>1980</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/4IdoZg7qwE1VAfeqrBRuhC?si=hduZbnKHTy6bzxrSzM1--Q.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_Hot_Space.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/4IdoZg7qwE1VAfeqrBRuhC?si=hduZbnKHTy6bzxrSzM1--Q.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_Hot_Space.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  Hot Space
+                <div class="overlay-text">Hot Space
                   <p>1982</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/2YcZlfU3fVThUasW4hHI24?si=70eSJsdURBKYJ1jTBSLWHQ.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_The_Works.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/2YcZlfU3fVThUasW4hHI24?si=70eSJsdURBKYJ1jTBSLWHQ.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_The_Works.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  The Works
+                <div class="overlay-text">The Works
                   <p>1984</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/19DjDiLPQM5kXc25vpuNn2?si=WOHdU6cESiK43DRzyCCoDQ.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_A_Kind_Of_Magic.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/19DjDiLPQM5kXc25vpuNn2?si=WOHdU6cESiK43DRzyCCoDQ.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_A_Kind_Of_Magic.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  A Kind of Magic
+                <div class="overlay-text">A Kind of Magic
                   <p>1986</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/5IQU4NUxVKn0tdBpJjKCyd?si=inVUPVe-TESTUeNvFYNPKQ.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_The_Miracle.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/5IQU4NUxVKn0tdBpJjKCyd?si=inVUPVe-TESTUeNvFYNPKQ.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_The_Miracle.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  The Miracle
+                <div class="overlay-text">The Miracle
                   <p>1989</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/3jYy7yGNCysTHE8MKrIF1k?si=LELTp2S4TIO81rSDaepvZA.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_Innuendo.png"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/3jYy7yGNCysTHE8MKrIF1k?si=LELTp2S4TIO81rSDaepvZA.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_Innuendo.png" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  Innuendo
+                <div class="overlay-text">Innuendo
                   <p>1991</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
-
-        <div class="album col-md-4" style="max-width: 30%">
-          <div class="album col-md-4">
-            <a
-              href="https://open.spotify.com/album/2FkwqbLE84vjGOeTJMzRfF?si=lg7EQPJmQ_WQ6P2iVLViDA.html"
-              class="img-overlay"
-              target="_blank"
-            >
-              <img
-                src="../img/discs/Queen_Made_in_Heaven.jpg"
-                class="img-fluid album"
-              />
+      </div>
+ 
+    
+      <div class="album col-md-4" style="max-width: 30%">
+        <div class="album col-md-4">
+          <a href="https://open.spotify.com/album/2FkwqbLE84vjGOeTJMzRfF?si=lg7EQPJmQ_WQ6P2iVLViDA.html" class="img-overlay" target="_blank">
+            <img src="./img/discs/Queen_Made_in_Heaven.jpg" class="img-fluid album">
               <div class="overlay">
-                <div class="overlay-text">
-                  Made in Heaven
+                <div class="overlay-text">Made in Heaven
                   <p>1995</p>
                 </div>
               </div>
-            </a>
-          </div>
+          </a>
         </div>
       </div>
-    </article>
+ 
+    
+    
+    </div>
+</article>
+
+
+
 
     <footer>
-      <p id="legal" class="center-block text-center">
-        <small>&copy;</small> <span class="copyright-year"></span>
-        A class project by Amaris Ovalle.
-      </p>
-    </footer>
+<p id="legal" class="center-block text-center">
+  <small>&copy;</small> <span class="copyright-year"></span>
+  A class project by Amaris Ovalle.
+</p>
+</footer>
+
+
+    
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

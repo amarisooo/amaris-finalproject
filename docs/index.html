@@ -1,162 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>Queen | Home</title>
-    <meta name="description" content="Default description" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Signika+Negative&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="description" content="Default description">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Signika+Negative&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img class="nav-header" src="../img/queen-logo-white.png" />
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="nav-header" src="img/queen-logo-white.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="music.html">Music
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="music.html"
-              >Music
-            </a>
-            <a class="nav-link active" aria-current="page" href="tour.html"
-              >Tour
-            </a>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div id="jumbo">
-      <div class="row">
-        <img class="img-fluid" src="img/queen-band-wallpaper-thin.jpg" />
-      </div>
+        <a class="nav-link active" aria-current="page" href="tour.html">Tour
+        </a>
+      </ul>
     </div>
-    <article class="container">
-      <div class="row">
-        <h2>The Band</h2>
+  </div>
+</nav>
 
-        <div class="members col-md">
-          <a
-            href="members/freddie-mercury.html"
-            target="_self"
-            class="img-overlay"
-            ><img src="img/members/freddie-mercury-bw.jpg" class="img-fluid" />
-            <div class="overlay">
-              <div class="overlay-text">Freddie Mercury</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="members col-md">
-          <a href="members/brian-may.html" target="_self" class="img-overlay"
-            ><img src="img/members/brian-may-bw.jpg" class="img-fluid" />
-            <div class="overlay">
-              <div class="overlay-text">Brian May</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="members col-md">
-          <a href="members/roger-taylor.html" target="_self" class="img-overlay"
-            ><img src="img/members/roger-taylor-bw.jpg" class="img-fluid" />
-            <div class="overlay">
-              <div class="overlay-text">Roger Taylor</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="members col-md">
-          <a href="members/john-deacon.html" target="_self" class="img-overlay"
-            ><img src="img/members/john-deacon-bw.jpg" class="img-fluid" />
-            <div class="overlay">
-              <div class="overlay-text">John Deacon</div>
-            </div>
-          </a>
+    
+<div id="jumbo">
+  <div class="row">
+      <img class="img-fluid" src="./img/queen-band-wallpaper-thin.jpg" >
+    </div>
+</div>
+<article class="container">
+    <div class="row">
+      <h2>The Band</h2>
+    
+    <div class="members col-md">
+      <a href="members/freddie-mercury.html" target="_self" class="img-overlay"><img src="./img/members/freddie-mercury-bw.jpg" class="img-fluid">
+      <div class="overlay">
+        <div class="overlay-text">
+          Freddie Mercury
         </div>
       </div>
-      <h2>Music</h2>
-      <div class="row">
-        <div class="col-sm">
-          <button class="btn btn-default">
-            <a href="music.html"><img src="img/discs/Queen_The_Game.png" /></a>
-          </button>
-        </div>
-        <div class="music-prev col-sm">
-          <h3>Top Tracks</h3>
-          <p>"Another One Bites The Dust"</p>
-          <p>"Crazy Little Thing Called Love"</p>
-          <p>"Play The Game"</p>
-        </div>
-        <div class="col-sm">
-          <button class="btn btn-default">
-            <a href="music.html"
-              ><img src="img/discs/Queen_A_Night_At_The_Opera.png" />
-            </a>
-          </button>
-        </div>
-        <div class="music-prev col-sm">
-          <h3>Top Tracks</h3>
-          <p>"You're My Best Friend"</p>
-          <p>"Bohemian Rhapsody"</p>
-        </div>
-        <h2>
-          <a href="tour.html">
-            <!-- will use css to not make this look ugly and blue -->
-            Tour
-          </a>
-        </h2>
-        <div class="row justify-content-md-center">
-          <div class="col-md-8">
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td width="30%">5/27/2022</td>
-                  <td width="30%">Belfast, UK</td>
-                  <td width="30%">SSE Arena</td>
-                </tr>
-                <tr>
-                  <td width="30%">5/28/2022</td>
-                  <td width="30%">Belfast, UK</td>
-                  <td width="30%">SSE Arena</td>
-                </tr>
-                <tr>
-                  <td width="30%">5/30/2022</td>
-                  <td width="30%">Machester, UK</td>
-                  <td width="30%">AO Arena Manchester</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+      </a>
+    </div>
+    
+    <div class="members col-md">
+      <a href="members/brian-may.html" target="_self" class="img-overlay"><img src="./img/members/brian-may-bw.jpg" class="img-fluid">
+      <div class="overlay">
+        <div class="overlay-text">
+          Brian May
         </div>
       </div>
-    </article>
+      </a>
+    </div>
+    
+    <div class="members col-md">
+      <a href="members/roger-taylor.html" target="_self" class="img-overlay"><img src="./img/members/roger-taylor-bw.jpg" class="img-fluid">
+      <div class="overlay">
+        <div class="overlay-text">
+          Roger Taylor
+        </div>
+      </div>
+      </a>
+    </div>
+    
+    <div class="members col-md">
+      <a href="members/john-deacon.html" target="_self" class="img-overlay"><img src="./img/members/john-deacon-bw.jpg" class="img-fluid">
+      <div class="overlay">
+        <div class="overlay-text">
+          John Deacon
+        </div>
+      </div>
+      </a>
+    </div>
+    
+</div>
+  <h2>Music</h2>
+  <div class="row">
+    <div class="col-sm">
+      <button class="btn btn-default">
+        <a href="music.html"><img src="img/discs/Queen_The_Game.png"></a>
+      </button>
+    </div>
+    <div class="music-prev col-sm">
+      <h3>Top Tracks</h3>
+      <p>"Another One Bites The Dust"</p>
+      <p>"Crazy Little Thing Called Love"</p>
+      <p>"Play The Game"</p>
+    </div>
+    <div class="col-sm">
+      <button class="btn btn-default">
+        <a href="music.html"><img src="img/discs/Queen_A_Night_At_The_Opera.png"> </a>
+      </button>
+    </div>
+    <div class="music-prev col-sm">
+      <h3>Top Tracks</h3>
+      <p>"You're My Best Friend"</p>
+      <p>"Bohemian Rhapsody"</p>
+    </div>
+    <h2><a href="tour.html">
+    <!-- will use css to not make this look ugly and blue -->
+    Tour
+    </a></h2>
+    <div class="row justify-content-md-center">
+    <div class="col-md-8">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td width="30%">5/27/2022</td>
+            <td width="30%">Belfast, UK</td>
+            <td width="30%">SSE Arena</td>
+          </tr>
+          <tr>
+            <td width="30%">5/28/2022</td>
+            <td width="30%">Belfast, UK</td>
+            <td width="30%">SSE Arena</td>
+          </tr>
+          <tr>
+            <td width="30%">5/30/2022</td>
+            <td width="30%">Machester, UK</td>
+            <td width="30%">AO Arena Manchester</td>
+          </tr>
+      </table>
+    </div>
+  </div>
+  </div>
+
+</article>
+
 
     <footer>
-      <p id="legal" class="center-block text-center">
-        <small>&copy;</small> <span class="copyright-year"></span>
-        A class project by Amaris Ovalle.
-      </p>
-    </footer>
+<p id="legal" class="center-block text-center">
+  <small>&copy;</small> <span class="copyright-year"></span>
+  A class project by Amaris Ovalle.
+</p>
+</footer>
+
+
+    
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
