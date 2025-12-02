@@ -3,52 +3,55 @@
 {% block page_title %} Home{% endblock %}
 
 {% block content %}
-{% include "_includes/jumbotron.njk" %}
-<article class="container">
+  {% include "_includes/jumbotron.njk" %}
+  <article class="container">
     <div class="row">
       <h2>The Band</h2>
-    {% for member in queen.members %}
-      <div class="members col-md">
-        <a href="members/{{ member.slug }}.html" target="_self" class="img-overlay"><img src="./img/members/{{ member.imagebw }}" class="img-fluid">
-        <div class="overlay">
-          <div class="overlay-text">
-          {{ member.name }}
-          </div>
+      {% for member in queen.members %}
+        <div class="members col-md">
+          <a href="members/{{ member.slug }}.html" target="_self" class="img-overlay"><img src="./img/members/{{ member.imagebw }}" class="img-fluid">
+            <div class="overlay">
+              <div class="overlay-text">
+                {{ member.name }}
+              </div>
+            </div>
+          </a>
         </div>
-        </a>
+      {% endfor %}
+    </div>
+    <h2>
+      <a href= "{{relative_path}} music.html">Music</a>
+    </h2>
+    <div class="row">
+      <div class="col-sm">
+        <button class="btn btn-default">
+          <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_The_Game.png"></a>
+        </button>
       </div>
-    {% endfor %}
-  </div>
-  <h2><a href="{{ relative_path }}music.html">
-    Music
-    </a></h2>
-  <div class="row">
-    <div class="col-sm">
-      <button class="btn btn-default">
-        <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_The_Game.png"></a>
-      </button>
+      <div class="music-prev col-sm">
+        <h3>Top Tracks</h3>
+        <p>"Another One Bites The Dust"</p>
+        <p>"Crazy Little Thing Called Love"</p>
+        <p>"Play The Game"</p>
+      </div>
+      <div class="col-sm">
+        <button class="btn btn-default">
+          <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_A_Night_At_The_Opera.png">
+          </a>
+        </button>
+      </div>
+      <div class="music-prev col-sm">
+        <h3>Top Tracks</h3>
+        <p>"You're My Best Friend"</p>
+        <p>"Bohemian Rhapsody"</p>
+      </div>
     </div>
-    <div class="music-prev col-sm">
-      <h3>Top Tracks</h3>
-      <p>"Another One Bites The Dust"</p>
-      <p>"Crazy Little Thing Called Love"</p>
-      <p>"Play The Game"</p>
-    </div>
-    <div class="col-sm">
-      <button class="btn btn-default">
-        <a href="{{ relative_path }}music.html"><img src="img/discs/Queen_A_Night_At_The_Opera.png"> </a>
-      </button>
-    </div>
-    <div class="music-prev col-sm">
-      <h3>Top Tracks</h3>
-      <p>"You're My Best Friend"</p>
-      <p>"Bohemian Rhapsody"</p>
-    </div>
-  </div>
-    <h2><a href="{{ relative_path }}tour.html">
-    <!-- will use css to not make this look ugly and blue -->
+    <h2>
+      <a href="{{ relative_path }}tour.html">
+        <!-- will use css to not make this look ugly and blue -->
     Tour
-    </a></h2>
+    </a>
+    </h2>
     <div class="row justify-content-md-center">
       <div class="col-md-8">
         <table class="table">
