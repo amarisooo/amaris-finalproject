@@ -8,24 +8,20 @@
     <div class="row">
       <h2>The Band</h2>
     {% for member in queen.members %}
-    <div class="members col-md">
-      <a href="members/{{ member.slug }}.html" target="_self" class="img-overlay"><img src="./img/members/{{ member.imagebw }}" class="img-fluid">
-      <div class="overlay">
-        <div class="overlay-text">
+      <div class="members col-md">
+        <a href="members/{{ member.slug }}.html" target="_self" class="img-overlay"><img src="./img/members/{{ member.imagebw }}" class="img-fluid">
+        <div class="overlay">
+          <div class="overlay-text">
           {{ member.name }}
+          </div>
         </div>
+        </a>
       </div>
-      </a>
-    </div>
     {% endfor %}
-</div>    
-<h2><a href="{{ relative_path }}tour.html">
-    <!-- will use css to not make this look ugly and blue -->
-    Tour
-    </a></h2>
-<!---<h2><a href="{{ relative_path }}music.html">
+  </div>
+  <h2><a href="{{ relative_path }}music.html">
     Music
-    </a></h2> -->
+    </a></h2>
   <div class="row">
     <div class="col-sm">
       <button class="btn btn-default">
@@ -48,33 +44,34 @@
       <p>"You're My Best Friend"</p>
       <p>"Bohemian Rhapsody"</p>
     </div>
+  </div>
     <h2><a href="{{ relative_path }}tour.html">
     <!-- will use css to not make this look ugly and blue -->
     Tour
     </a></h2>
     <div class="row justify-content-md-center">
-    <div class="col-md-8">
-      <table class="table">
-        <tbody>
-          <tr>
-            <td width="30%">5/27/2022</td>
-            <td width="30%">Belfast, UK</td>
-            <td width="30%">SSE Arena</td>
-          </tr>
-          <tr>
-            <td width="30%">5/28/2022</td>
-            <td width="30%">Belfast, UK</td>
-            <td width="30%">SSE Arena</td>
-          </tr>
-          <tr>
-            <td width="30%">5/30/2022</td>
-            <td width="30%">Machester, UK</td>
-            <td width="30%">AO Arena Manchester</td>
-          </tr>
-      </table>
+      <div class="col-md-8">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td width="30%">5/27/2022</td>
+              <td width="30%">Belfast, UK</td>
+              <td width="30%">SSE Arena</td>
+            </tr>
+            <tr>
+              <td width="30%">5/28/2022</td>
+              <td width="30%">Belfast, UK</td>
+              <td width="30%">SSE Arena</td>
+            </tr>
+            <tr>
+              <td width="30%">5/30/2022</td>
+              <td width="30%">Machester, UK</td>
+              <td width="30%">AO Arena Manchester</td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
-
 </article>
 {% endblock %}
